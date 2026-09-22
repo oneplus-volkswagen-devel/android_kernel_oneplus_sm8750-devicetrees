@@ -16,9 +16,9 @@
 
 		config {
 			pins = "gpio70";
-			bias-pull-up; /* PULL UP*/
+			//bias-pull-up;
 			drive-strength = <2>; /* 2 MA */
-			qcom,i2c_pull;
+			//qcom,i2c_pull;
 		};
 	};
 
@@ -45,9 +45,9 @@
 
 		config {
 			pins = "gpio71";
-			bias-pull-up; /* PULL UP*/
+			//bias-pull-up;
 			drive-strength = <2>; /* 2 MA */
-			qcom,i2c_pull;
+			//qcom,i2c_pull;
 		};
 	};
 
@@ -74,9 +74,9 @@
 
 		config {
 			pins = "gpio72";
-			bias-pull-up; /* PULL UP*/
+			//bias-pull-up;
 			drive-strength = <2>; /* 2 MA */
-			qcom,i2c_pull;
+			//qcom,i2c_pull;
 		};
 	};
 
@@ -103,9 +103,9 @@
 
 		config {
 			pins = "gpio73";
-			bias-pull-up; /* PULL UP*/
+			//bias-pull-up;
 			drive-strength = <2>; /* 2 MA */
-			qcom,i2c_pull;
+			//qcom,i2c_pull;
 		};
 	};
 
@@ -132,9 +132,9 @@
 
 		config {
 			pins = "gpio74";
-			bias-pull-up; /* PULL UP*/
+			//bias-pull-up;
 			drive-strength = <2>; /* 2 MA */
-			qcom,i2c_pull;
+			//qcom,i2c_pull;
 		};
 	};
 
@@ -161,9 +161,9 @@
 
 		config {
 			pins = "gpio75";
-			bias-pull-up; /* PULL UP*/
+			//bias-pull-up;
 			drive-strength = <2>; /* 2 MA */
-			qcom,i2c_pull;
+			//qcom,i2c_pull;
 		};
 	};
 
