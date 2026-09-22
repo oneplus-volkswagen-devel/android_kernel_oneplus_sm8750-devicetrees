@@ -87,9 +87,12 @@
 		smooth_strategy {
 			oplus_spec,reserve_table_centipercent =
 				/* start(%) end(%) dischg_reserve(0.01%) full_reserve(0.01%) chg_reserve(0.01%) chg_split(%) */
-				<0   20  0   0   200 100>,
-				<21  99  200 0   200 100>,
-				<100 100 200 0   200 100>;
+				<0   20  0   0   (-200) 90>,
+				<21  80  200 0   (-200) 90>,
+				<81  84  200 0   (-100) 90>,
+				<85  99  200 0   200    100>,
+				<100 100 200 0   200    100>;
+			oplus,enable_secondary_smooth_map_update;
 		};
 	};
 };
