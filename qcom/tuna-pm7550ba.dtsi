@@ -190,6 +190,7 @@ else*/
 };
 #endif*/
 &thermal_zones {
+/*#ifdef OPLUS_FEATURE_CHG_BASIC
 	sys-therm-7 {
 		polling-delay-passive = <0>;
 		polling-delay = <0>;
@@ -208,6 +209,7 @@ else*/
 			};
 		};
 	};
+#endif*/
 
 	sys-therm-8 {
 		polling-delay-passive = <0>;
@@ -339,11 +341,13 @@ else*/
 
 	socd {
 		cooling-maps {
-			socd_apc1 {
+//#ifdef OPLUS_FEATURE_THERMAL
+/* remove MX_CX_PAUSE policy*/
+			/*socd_apc1 {
 				trip = <&socd_trip>;
 				cooling-device = <&APC1_MX_CX_PAUSE 1 1>;
-			};
-
+			};*/
+//#endif /* OPLUS_FEATURE_THERMAL */
 			socd_cdsp1 {
 				trip = <&socd_trip>;
 				cooling-device = <&cdsp_sw 4 4>;
